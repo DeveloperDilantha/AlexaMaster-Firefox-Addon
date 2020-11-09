@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="../resources/css/mat.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="../resources/js/mat.js"></script>
+    <script src="functions.js"></script> 
+    
+</head>
+<body>
+    <div class="container center">
+        <sub><img src="../resources/img/logo.png"></sub><sup><b>pro</b></sup> 
+        <div class="col s12 m12 l12">
+            <ul class="tabs tabs-fixed-width z-depth-4 hoverable">
+                <li id="mnu1" class="tab disabled"><a href="#t1" class=""></a></li>
+                <li id="mnu2" class="tab"><a href="#t2" class="active"></a></li>
+                <li id="mnu3" class="tab disabled"><a href="#t3" class=""></a></li>
+            </ul>
+        </div>
+        
+        <div id="t1" class="col s12 m12 l12">
+            <div class="row">
+                
+                <!-- User Data -->
+                <div id="user" class="col s12 m12 l12 hide">
+                    <ul class="collection with-header">
+                        
+                    <li class="collection-header">
+                        <h6></h6><h5 class="blue-text"></h5>
+                    </li>
+                        
+                    <li class="collection-item"><div>
+                        
+                        <a id="btn_order" class="waves-effect waves-light btn-small orange"><i class="material-icons left">local_grocery_store</i><span id="btn_lbl_order"></span></a>&nbsp;
+                        
+                        <a id="btn_user" class="waves-effect waves-light btn-small green"><i class="material-icons left">account_circle</i><span id="btn_lbl_user"></span></a></div></li>
+                      
+                    <li class="collection-item"><div>
+                        
+                        <a id="btn_contact" class="waves-effect waves-light btn-small indigo"><i class="material-icons left">local_phone</i><span id="btn_lbl_contact"></span></a>&nbsp;
+                        
+                        <a id="btn_yt" class="waves-effect waves-light btn-small red"><i class="material-icons left">account_circle</i><span id="btn_lbl_yt"></span></a></div></li>
+                    </ul>
+                </div>
+                
+   
+            </div>
+        </div>
+
+        <div id="t2" class="col s12 m12 l12"> 
+            <div class="progress blue"><div class="indeterminate light-blue darken-4"></div></div>
+            <!-- Connect -->
+            <div id="settings" class="col s12 m12 l12 hide">
+
+                <ul class="collection">
+                    <li class="collection-item">
+
+                        <!-- Ajax Loader-->
+                        <div id="loader" class="col s12 m12 l12">
+                          <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-blue-only">
+                              <div class="circle-clipper left">
+                                <div class="circle"></div>
+                              </div><div class="gap-patch">
+                                <div class="circle"></div>
+                              </div><div class="circle-clipper right">
+                                <div class="circle"></div>
+                              </div>
+                            </div>
+                          </div>  
+                        </div>                            
+
+                        <h6 id="link_status" class="center-align"></h6>
+                    </li>
+                    <li class="collection-item left-align">
+                        <div id="login" class="input-field inline">    
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="number">
+                            <label for="icon_prefix"></label>
+                            <span class="helper-text red-text left-align"></span>
+                        </div>
+                        <a id="connect" href="#" class="btn btn-small light-blue darken-4"><i class="material-icons prefix">send</i></a>
+                    </li>
+                    <li class="collection-item">
+                        <blockquote id="nomaster" class="left-align red-text"></blockquote>
+                    </li>
+                </ul>   
+            </div> 
+            
+        </div>
+
+        <div id="t3" class="col s12 m12 l12">
+           <!-- User Data -->
+            <div id="surf" class="col s12 m12 l12 hide">
+                <ul class="collection with-header">
+
+                    <li class="collection-header">
+                        <h5 class="blue-text"></h5>
+                    </li>
+
+                    <li class="collection-item"><div>
+                        
+                        <a id="btn_start" class="btn-small green disabled"><i class="material-icons left">sync</i><span id="btn_lbl_start"></span></a>&nbsp;
+                        
+                        <a id="btn_stop" class="btn-small red disabled"><i class="material-icons left">sync_disabled</i><span id="btn_lbl_stop"></span></a>
+                        
+                    </div></li>
+                    <li class="collection-item">
+                        <blockquote id="nosurf" class="left-align red-text"></blockquote>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+    "name": "__MSG_appName__",
+    "version": "1.1",
+    "description": "__MSG_appDesc__",
+    "manifest_version": 2, 
+    "icons": {
+        "16": "resources/img/am16.png",
+        "32": "resources/img/am32.png",
+        "48": "resources/img/am48.png",
+        "64": "resources/img/am64.png",
+        "96": "resources/img/am96.png",
+        "128": "resources/img/am128.png"
+    },    
+    "author": "alexamaster",
+    "homepage_url": "https://www.alexamaster.net",    
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "management",
+        "webRequestBlocking",
+        "webRequest",
+        "webNavigation",
+        "<all_urls>",
+        "https://www.alexamaster.net/*"
+    ],
+    "minimum_chrome_version" : "72.0.0.0",
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+          "background/core.js"   
+        ],
+        "persistent": true
+    },   
+    "browser_action": {
+        "default_popup": "popup/index.html"
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{659968d0-ba5f-4763-8b5f-959b648e4724}"
+      }
+    }    
+}

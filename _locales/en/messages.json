@@ -1,0 +1,90 @@
+{
+  "appName": {
+    "message": "alexamaster pro"
+  },
+  "appDesc": {
+    "message": "Surf new websites, manage advertising, earn extra money using alexamaster pro version in Firefox browser!"
+  },
+  "amURLmain": {
+    "message": "https://www.alexamaster.net"
+  },
+  "amURLprofile": {
+    "message": "https://www.alexamaster.net/a"
+  },
+  "amURLcontact": {
+    "message": "https://www.alexamaster.net/contact.php"
+  },
+  "amURLbuy": {
+    "message": "https://www.alexamaster.net/buy/"
+  },
+  "amURLyt": {
+    "message": "https://www.youtube.com/alexamaster"
+  },
+  "errNoUser": {
+    "message": "This master ID is not valid!"
+  },
+  "errNeedUser": {
+    "message": "Please enter your Master ID!"
+  },
+  "msgGreet": {
+    "message": "Hey, "
+  }, 
+  "msgConnected": {
+    "message": "Connected!"
+  },
+  "msgConnecting": {
+    "message": "Connecting..."
+  },
+  "msgServerBusy": {
+    "message": "Server is busy!"
+  },
+  "msgBadConnection": {
+    "message": "Please Try Again!"
+  },    
+  "msgTxtMsg": {
+    "message": "Type here..."
+  },    
+  "msgMasterID": {
+    "message": "Master ID (Eg: 20203):"
+  },
+  "msgNoMasterID": {
+    "message": "By pressing the connect button above, you confirm that you have registered a user account in alexamaster. Don't have a Master ID? Just create a free user account at www.alexamaster.net."
+  }, 
+  "msgNoSurf": {
+    "message": "If you use this feature, your browser will open advertised websites on your browser. You confirm that you have read our Terms Of Service (TOS). Otherwise, uninstall this extension."
+  },    
+  "btnStart": {
+    "message": "Start"
+  },
+  "btnStop": {
+    "message": "Stop"
+  },
+  "btnUserAcc": {
+    "message": "Profile"
+  },
+  "btnOrder": {
+    "message": "Order"
+  },
+  "btnContact": {
+    "message": "Contact"
+  },
+  "btnYT": {
+    "message": "Videos"
+  },
+  "lblMenu1": {
+    "message": "Account"
+  },  
+  "lblMenu2": {
+    "message": "Settings"
+  },
+  "lblMenu3": {
+    "message": "Auto Surf"
+  }, 
+  "btnSync": {
+    "message": "Connect"
+  },    
+  "msgMore": {
+    "message": "Read More"
+  }
+    
+}

@@ -1,0 +1,33 @@
+.container{width:330px !important;}
+.tabs .tab a {color: #458ec7 !important;}
+.tab a.active {color: #0d5283 !important;}
+.tabs .tab a:focus, .tabs .tab a:focus.active {background-color: rgba(110,165,238,0.2);}
+.tabs .tab a:hover, .tabs .tab a.active {color: #0d5283 !important;}
+.tabs .indicator {background-color: #0d5283 !important;}
+#connect{margin-top:-20px !important;width:20%}
+#login{width:75%}
+.input-field .prefix, .input-field label{color: #0d5283 !important;}
+.input-field input:focus{border-bottom: 1px solid #458ec7 !important;}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
